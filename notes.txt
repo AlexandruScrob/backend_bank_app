@@ -1,3 +1,7 @@
 Run apps:
 flask --app bank_app --debug run
 uvicorn main:app --reload
+
+For .env use:
+
+HOST_BASE_URL="http://127.0.0.1:5000" 
