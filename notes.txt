@@ -1,0 +1,3 @@
+Run apps:
+flask --app bank_app --debug run
+uvicorn main:app --reload
